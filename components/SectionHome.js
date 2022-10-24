@@ -1,11 +1,11 @@
 import React from 'react';
-import teste from '../styles/teste.css'
+import style from '../styles/SectionHome.module.css'
 
 // import { Container } from './styles';
 
 function SectionHome({titulo,descricao}) {
   return (	
-    <section className={teste.sectionOne}>
+    <section className={style.sectionOne}>
       <div style={{flex:1, backgroundColor:'red'}}>
         <p style={{fontSize:'25px'}}>
           {titulo}

@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import MenuHeader from '../components/Menu';
 import { Layout } from 'antd';
-import SectionHome from '../components/SectionHome';
+import SectionHome from '../components/SectionHome.js';
 
 function SectionXPTO({titulo,descricao}) {
 	return (
