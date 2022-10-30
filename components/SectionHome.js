@@ -3,18 +3,20 @@ import style from '../styles/SectionHome.module.css'
 
 // import { Container } from './styles';
 
-function SectionHome({titulo,descricao}) {
+function SectionHome({ id, titulo,descricao,corFundo}) {
   return (	
-    <section className={style.sectionOne}>
-      <div style={{flex:1, backgroundColor:'red'}}>
-        <p style={{fontSize:'25px'}}>
+    <div  id={id}className={style.sectionOne} style={{backgroundColor:corFundo}}>
+      <div className={style.divOne}>
+        <h1 className={style.titulo}>
           {titulo}
+        </h1>
+      </div>
+      <div className={style.divSecond}>
+        <p className={style.descricao}>
+        {descricao}
         </p>
       </div>
-      <div style={{flex:2, backgroundColor:'blue'}}>
-        {descricao}
-      </div>
-      </section>
+    </div>
   )
 }
 

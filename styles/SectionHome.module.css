@@ -1,5 +1,30 @@
 .sectionOne {
-  flex-direction:'row'; 
-  display:'flex'; 
-  height:'100vh'
+  flex-direction:row; 
+  display:flex; 
+  height:100vh;
+  
+}
+.divOne {
+  font-size:25px;
+  flex: 1;
+  align-items:center ;
+  justify-content: center;
+  display: flex;
+  padding: 5%;
+}
+.divSecond {
+  flex: 2;
+  align-items:center ;
+  justify-content: center;
+  display: flex;
+  padding: 5%;
+}
+.titulo {
+  color: rgb(0,144,66);
+  font-size: 3.5rem;
+}
+.descricao {
+  letter-spacing: -0.03em;
+  font-size: 2rem;
+  line-height: 1.2;
 }
